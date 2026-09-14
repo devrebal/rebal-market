@@ -1,33 +1,35 @@
-# rebal
+# REBAL
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+**Portfolio Markets, Rebalanced.**
 
-## Built with v0
+REBAL is a portfolio-first decentralized market protocol built on Robinhood Chain, designed for creating, trading, and providing liquidity to multi-asset portfolio markets from a single onchain environment.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+## Overview
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_svoGi2fOpx7f2i8MLdIWJQqsytjK)
+Instead of relying on fragmented liquidity across individual trading pairs, REBAL groups multiple assets into programmable portfolios with defined allocations.
+
+REBAL enables users to:
+
+- Explore multi-asset portfolio markets
+- Trade between supported assets
+- Provide liquidity across multiple assets
+- Earn trading fees from liquidity positions
+- Enter and exit portfolio positions
+- Create permissionless portfolio markets
+- Monitor portfolio composition and analytics
+- Connect and interact through a Web3 wallet
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Web3 wallet integration
 
 ## Getting Started
 
-First, run the development server:
+Install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+npm install
